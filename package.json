@@ -1,0 +1,30 @@
+{
+  "name": "crunch-cartography-persistence",
+  "version": "0.0.0",
+  "description": "Backend component of Cartography to write persistent data using Crunch queues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spectrumbranch/crunch-cartography-persistence.git"
+  },
+  "keywords": [
+    "crunch",
+    "cartography",
+    "persistence"
+  ],
+  "author": "cbebry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spectrumbranch/crunch-cartography-persistence/issues"
+  },
+  "homepage": "https://github.com/spectrumbranch/crunch-cartography-persistence",
+  "dependencies": {
+    "crunch": "~0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2"
+  }
+}
