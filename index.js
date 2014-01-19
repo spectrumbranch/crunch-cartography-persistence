@@ -2,6 +2,18 @@ var Crunch = require('crunch');
 var Persistence = require('./lib');
 var Config = require('./config/databases');
 
+var dbconfig = Config.sequelize;
+var scurvy = require('scurvy').createInstance();
+var virt_modules = [];
+virt_modules.scurvy = scurvy;
+
+var models = require('cartography-models');
+models.init(dbconfig, virt_modules, function() {
+	console.log('mysql database setup complete');
+	
+	//TODO: startup, running code that is currently below.
+});
+
 var relay = {};
 var router = {};
 router.save = function (obj) {

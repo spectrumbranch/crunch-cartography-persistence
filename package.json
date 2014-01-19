@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/spectrumbranch/crunch-cartography-persistence",
   "dependencies": {
-    "crunch": "~0.1.2"
+    "crunch": "~0.1.2",
+    "cartography-models": "~0.1.0"
   },
   "devDependencies": {
     "mocha": "~1.16.2"
